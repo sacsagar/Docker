@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Users\sr43993\Documents\DockerWorkspace\.metadata\.plugins\org.eclipse.jdt.core
+2297483095.index
+760134502.index
+3646159085.index
+810269338.index
+3317929073.index

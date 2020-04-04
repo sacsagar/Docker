@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;product-management-with-mysql/notes&apos; to &apos;notes.txt&apos;" description="Rename resource &apos;notes&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="notes" name="notes.txt" stamp="1585305434822" updateReferences="true"/>
+</session>

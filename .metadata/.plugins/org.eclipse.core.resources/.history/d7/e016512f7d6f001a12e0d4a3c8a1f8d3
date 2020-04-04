@@ -1,0 +1,28 @@
+version: "3"
+services:
+  employee-jdbc:
+    image: product-management-compose
+    ports:
+      - "8080:8080"
+    networks:
+      - employee-mysql
+    depends_on:
+      - mysqldb
+ 
+  mysqldb:
+    image: mysql
+    networks:
+      - employee-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=fullstack
+      - MYSQL_USER=test
+      - MYSQL_PASSWORD=root  
+    ports:
+      - 3306:3306
+      
+
+      
+        
+ 
+  

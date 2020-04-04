@@ -1,0 +1,23 @@
+version: '3'
+
+services: 
+ spring-boot-jpa-docker-webapp :
+    image: product-management-compose
+    depends_on:
+      - docker-mysql
+    ports:
+      - 8080:8080 
+
+  docker-mysql:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=fullstack
+      - MYSQL_USER=test
+      - MYSQL_PASSWORD=root
+    ports:
+      - 3306:3306
+      
+        
+ 
+  

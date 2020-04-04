@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Dockerfile&apos; to &apos;product-management-with-mysql&apos;&#x0D;&#x0A;- Original project: &apos;product-management-with-db&apos;&#x0D;&#x0A;- Destination element: &apos;product-management-with-mysql&apos;&#x0D;&#x0A;- Original element: &apos;Dockerfile&apos;" description="Copy file" destination="=product-management-with-mysql" element1="Dockerfile" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1585072756800" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Users\sr43993\Documents\DockerWorkspace\hello-world-rest-api-with-dockerfile"/>
+			<item value="D:\Users\sr43993\Documents\DockerWorkspace\hello-world-rest-api"/>
+			<item value="D:\Users\sr43993\Documents\DockerWorkspace\product-management-with-mysql"/>
+			<item value="D:\Users\sr43993\Documents\DockerWorkspace\product-management-with-db"/>
+			<item value="C:\Users\sr43993\git\SpringBoot09032020\product-management-with-db"/>
+			<item value="D:\Users\sr43993\Documents\docker28012020\hello-world-rest-api"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="hello-world-rest-api-with-dockerfile"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

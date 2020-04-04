@@ -1,0 +1,22 @@
+version: '3'
+
+services: 
+  docker-mysql:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=fullstack
+      - MYSQL_PASSWORD=root
+      - DATABASE_USER=test
+  product-management-compose:
+    image: product-management-compose
+    depends_on:
+      - docker-mysql
+    ports:
+      - 8080:8080
+    environment:
+      - DATABASE_HOST=docker-mysql
+      - DATABASE_USER=test
+      - DATABASE_PASSWORD=root
+      - DATABASE_NAME=fullstack  
+      - DATABASE_PORT=3306
