@@ -8,6 +8,7 @@ public class HelloWorldRestApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldRestApiApplication.class, args);
+		System.out.println("Ram");
 	}
 
 }
